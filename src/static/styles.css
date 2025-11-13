@@ -65,6 +65,43 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+/* Participants section styling */
+.participants-section {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eef3fb;
+  border-radius: 4px;
+  border-left: 4px solid #1a237e;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin-top: 6px;
+  margin-left: 18px;
+  list-style-type: disc;
+  padding-left: 0;
+}
+
+.participants-list li {
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: #333;
+  padding: 2px 0 2px 4px;
+  border-left: 2px solid #90caf9;
+}
+
+.participants-section.no-participants {
+  background-color: #fbe9e7;
+  border-left: 4px solid #ffb300;
+  color: #b26a00;
+  font-style: italic;
+  padding: 10px;
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
@@ -88,43 +125,6 @@ section h3 {
 .form-group select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-button {
-  background-color: #1a237e;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-button:hover {
-  background-color: #3949ab;
-}
-
-.message {
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.success {
-  background-color: #e8f5e9;
-  color: #2e7d32;
-  border: 1px solid #a5d6a7;
-}
-
-.error {
-  background-color: #ffebee;
-  color: #c62828;
-  border: 1px solid #ef9a9a;
-}
 
 .info {
   background-color: #d1ecf1;
